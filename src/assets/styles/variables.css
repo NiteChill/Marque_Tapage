@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+:root {
+  --brand-1: #F8C5B0;
+  --brand-2: #EBA081;
+  --brand-3: #FAE5D0;
+
+  --on-surface-1: #1B1B1B;
+  --on-surface-2: #474747;
+  --on-surface-3: #6A6A6A;
+
+  --outline-1: #777777;
+  --outline-2: #C6C6C6;
+  --outline-3: #E2E2E2;
+
+  --inverse-on-surface: #FFFFFF;
+}
+
+@theme inline {
+  --color-brand-1: var(--brand-1);
+  --color-brand-2: var(--brand-2);
+  --color-brand-3: var(--brand-3);
+
+  --color-on-surface-1: var(--on-surface-1);
+  --color-on-surface-2: var(--on-surface-2);
+  --color-on-surface-3: var(--on-surface-3);
+
+  --color-outline-1: var(--outline-1);
+  --color-outline-2: var(--outline-2);
+  --color-outline-3: var(--outline-3);
+
+  --color-inverse-on-surface: var(--inverse-on-surface);
+}
