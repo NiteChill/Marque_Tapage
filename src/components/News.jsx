@@ -123,7 +123,7 @@ export default function News() {
                 className='absolute top-0 w-full h-full object-cover'
                 style={{ opacity: el?.backdrop ? 1 - el.backdrop : 1 }}
               />
-              <h3 className='text-[7vw]/[0.9] sm:text-[6vw]/[0.9] news-text-animation translate-y-[100px] opacity-0 z-10 w-full'>
+              <h3 className='text-[7vw]/[0.9] sm:text-[4vw]/[0.9] news-text-animation translate-y-[100px] opacity-0 z-10 w-full'>
                 {el.title}
               </h3>
               <p className='text-sm sm:text-base md:text-lg news-text-animation translate-y-[100px] opacity-0 z-10 w-full'>

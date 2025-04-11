@@ -5,6 +5,8 @@
   --brand-2: #EBA081;
   --brand-3: #FAE5D0;
 
+  --surface-1: #FFFFFF;
+
   --on-surface-1: #1B1B1B;
   --on-surface-2: #474747;
   --on-surface-3: #6A6A6A;
@@ -20,6 +22,8 @@
   --color-brand-1: var(--brand-1);
   --color-brand-2: var(--brand-2);
   --color-brand-3: var(--brand-3);
+
+  --color-surface-1: var(--surface-1);
 
   --color-on-surface-1: var(--on-surface-1);
   --color-on-surface-2: var(--on-surface-2);
